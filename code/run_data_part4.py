@@ -6,7 +6,7 @@ import mesa_reader
 
 mpl.rcParams.update(mpl.rcParamsDefault)
 #h = mesa_reader.MesaData('/Users/abhinavtyagi/Desktop/scp_data/LOGS/history.data')
-df_data = pd.read_csv('/Users/abhinavtyagi/PycharmProjects/pythonProject/CSVs/df_profile91.csv')
+df_data = pd.read_csv('/1Msun/df_profile91.csv')
 df = df_data
 #df = df_data[df_data['star_age']<20e15]
 df['radius_color'] = df['radius']*100000
